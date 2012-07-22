@@ -1,0 +1,6 @@
+LIBRARY
+EXPORTS
+InitWorker @1
+DisposeWorker @2
+Execute @3
+WorkWithArray @4

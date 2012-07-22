@@ -1,0 +1,5 @@
+C:\VSP\TDC2012\PInvokeManaged\bin\Debug\PInvokeManaged.exe
+C:\VSP\TDC2012\PInvokeManaged\bin\Debug\PInvokeManaged.pdb
+C:\VSP\TDC2012\PInvokeManaged\obj\x86\Debug\PInvokeManaged.csprojResolveAssemblyReference.cache
+C:\VSP\TDC2012\PInvokeManaged\obj\x86\Debug\PInvokeManaged.exe
+C:\VSP\TDC2012\PInvokeManaged\obj\x86\Debug\PInvokeManaged.pdb

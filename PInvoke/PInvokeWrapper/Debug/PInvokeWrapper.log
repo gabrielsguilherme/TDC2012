@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  PInvokeWrapper.cpp
+     Creating library C:\VSP\TDC2012\Debug\PInvokeWrapper.lib and object C:\VSP\TDC2012\Debug\PInvokeWrapper.exp
+     Creating library C:\VSP\TDC2012\Debug\PInvokeWrapper.lib and object C:\VSP\TDC2012\Debug\PInvokeWrapper.exp
+  PInvokeWrapper.vcxproj -> C:\VSP\TDC2012\Debug\PInvokeWrapper.dll

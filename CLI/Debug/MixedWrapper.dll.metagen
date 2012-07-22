@@ -1,0 +1,51 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly MixedWrapper, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class POC.MixedWrapper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    ManagedCallback onCallback : Public
+    ParameterizedCallback onParamCallback : Public
+  Events:
+    ParameterizedCallback OnParamCallback: SpecialName
+    ManagedCallback OnCallback: SpecialName
+  Methods:
+    add_OnCallback(ManagedCallback): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnCallback(ManagedCallback): PrivateScope, Public, HideBySig, SpecialName
+    raise_OnCallback(): PrivateScope, Public, HideBySig, SpecialName
+    add_OnParamCallback(ParameterizedCallback): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnParamCallback(ParameterizedCallback): PrivateScope, Public, HideBySig, SpecialName
+    raise_OnParamCallback(String, Int32): PrivateScope, Public, HideBySig, SpecialName
+    StartProcess(): PrivateScope, Public, HideBySig
+    StartParameterizedProcess(String, Int32): PrivateScope, Public, HideBySig
+    UnManagedTarget(): PrivateScope, Public, HideBySig
+    ParameterizedTarget(String, Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class POC.MixedWrapper+ManagedCallback: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class POC.MixedWrapper+ParameterizedCallback: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String, Int32): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(String, Int32, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask

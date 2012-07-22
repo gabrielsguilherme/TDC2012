@@ -1,0 +1,16 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  MixedWrapper.cpp
+c:\vsp\poc\mixedwrapper\MixedWrapper.h(24): warning C4358: '+=': return type of combined delegates is not 'void'; returned value is undefined
+c:\vsp\poc\mixedwrapper\MixedWrapper.h(29): warning C4358: '-=': return type of combined delegates is not 'void'; returned value is undefined
+c:\vsp\poc\mixedwrapper\MixedWrapper.h(47): warning C4358: '+=': return type of combined delegates is not 'void'; returned value is undefined
+c:\vsp\poc\mixedwrapper\MixedWrapper.h(52): warning C4358: '-=': return type of combined delegates is not 'void'; returned value is undefined
+  NativeHandler.cpp
+c:\vsp\poc\mixedwrapper\MixedWrapper.h(24): warning C4358: '+=': return type of combined delegates is not 'void'; returned value is undefined
+c:\vsp\poc\mixedwrapper\MixedWrapper.h(29): warning C4358: '-=': return type of combined delegates is not 'void'; returned value is undefined
+c:\vsp\poc\mixedwrapper\MixedWrapper.h(47): warning C4358: '+=': return type of combined delegates is not 'void'; returned value is undefined
+c:\vsp\poc\mixedwrapper\MixedWrapper.h(52): warning C4358: '-=': return type of combined delegates is not 'void'; returned value is undefined
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+UnmanagedCore.lib(CoreWorker.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  MixedWrapper.vcxproj -> C:\VSP\POC\Debug\MixedWrapper.dll

@@ -1,0 +1,7 @@
+C:\VSP\POC\Managed\bin\Debug\Managed.exe
+C:\VSP\POC\Managed\bin\Debug\Managed.pdb
+C:\VSP\POC\Managed\bin\Debug\MixedWrapper.dll
+C:\VSP\POC\Managed\bin\Debug\MixedWrapper.pdb
+C:\VSP\POC\Managed\obj\x86\Debug\Managed.csprojResolveAssemblyReference.cache
+C:\VSP\POC\Managed\obj\x86\Debug\Managed.exe
+C:\VSP\POC\Managed\obj\x86\Debug\Managed.pdb
