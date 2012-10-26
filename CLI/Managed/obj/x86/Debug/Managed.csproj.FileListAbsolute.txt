@@ -1,0 +1,7 @@
+C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Managed\bin\Debug\Managed.exe
+C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Managed\bin\Debug\Managed.pdb
+C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Managed\bin\Debug\MixedWrapper.dll
+C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Managed\bin\Debug\MixedWrapper.pdb
+C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Managed\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Managed\obj\x86\Debug\Managed.exe
+C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Managed\obj\x86\Debug\Managed.pdb

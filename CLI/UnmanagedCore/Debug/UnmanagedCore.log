@@ -1,0 +1,24 @@
+﻿Build started 25/10/2012 22:35:06.
+     1>Project "C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\UnmanagedCore\UnmanagedCore.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\UnmanagedCore.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\UnmanagedCore.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\UnmanagedCore.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AsyncWorkArgs.cpp CoreWorker.cpp
+         CoreWorker.cpp
+         AsyncWorkArgs.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Debug\UnmanagedCore.lib" /NOLOGO Debug\AsyncWorkArgs.obj
+         Debug\CoreWorker.obj
+         Debug\stdafx.obj
+         UnmanagedCore.vcxproj -> C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\Debug\UnmanagedCore.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\UnmanagedCore.unsuccessfulbuild".
+         Touching "Debug\UnmanagedCore.lastbuildstate".
+     1>Done Building Project "C:\Users\gabriel.guilherme\Documents\GitHub\TDC2012\CLI\UnmanagedCore\UnmanagedCore.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.10
